@@ -15,17 +15,25 @@ if(! $_SESSION['usertype'] == 0)
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
      <script type="text/javascript" src="../js/jquery.min.js"></script>
      <script type="text/javascript" src="../js/adminscript.js"></script>
-     <link rel="stylesheet" type="text/css" href="admin.css">
+     <link rel="stylesheet" type="text/css" href="../css/admin.css">
   </head>
   <body>
-  <div>
-     <h4>Welcome <?=$_SESSION['username']?></h4>
-     <span class="logout">
-       <a href="logout.php">Logut </a>
-     </span>
+ <div class="header">
+     <span class="welcome">Welcome <?=$_SESSION['username']?></span>
+     <span class="logout"><a href="logout.php">Logut </a></span>
+  </div>
+  <div class="menu-panel">
+    <ul>
+      <li>
+        <a href="addassocation.php">Add Assocation</a>
+      </li>
+      <li>
+        <a href="changepassword.php">Add Assocation</a>
+      </li>
+    </ul>
+    
   </div>
   <div>
-    <a href="addassocation.php">Add Assocation</a>
   </div>
   </body>
 </html>
