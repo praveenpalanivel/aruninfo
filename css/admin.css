@@ -1,5 +1,16 @@
-.logout
+.header
+{
+  min-height:50px;
+  min-width: 95%;
+  margin: auto;
+}
+.welcome
 {
   float: left;
-  font-weight: bolder;
+  margin-left: 2%;
+}
+.logout
+{
+  float: right;
+  margin-right: 2%;
 }
